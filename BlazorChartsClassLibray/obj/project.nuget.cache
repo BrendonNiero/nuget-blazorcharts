@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IKqyyHUuFz8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
