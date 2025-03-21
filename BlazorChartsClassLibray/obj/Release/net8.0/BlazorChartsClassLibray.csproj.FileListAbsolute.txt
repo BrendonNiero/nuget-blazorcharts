@@ -1,0 +1,14 @@
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\wwwroot\chart.js
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.deps.json
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.pdb
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.csproj.AssemblyReference.cache
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.sourcelink.json
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\refint\BlazorChartsClassLibray.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\BlazorChartsClassLibray.pdb
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\ref\BlazorChartsClassLibray.dll

@@ -3,8 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA6DFBFD-EC00-49F4-8DDE-BB9E71E81B71}|BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj|c:\\users\\pichau\\source\\repos\\blazorchartsclasslibray\\blazorchartsclasslibray\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6DFBFD-EC00-49F4-8DDE-BB9E71E81B71}|BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj|solutionrelative:blazorchartsclasslibray\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +18,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\Class1.cs",
-              "RelativeDocumentMoniker": "BlazorChartsClassLibray\\Class1.cs",
-              "ToolTip": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\Class1.cs",
-              "RelativeToolTip": "BlazorChartsClassLibray\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T18:50:05.034Z",
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.101\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAMwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-21T18:10:24.661Z",
               "EditorCaption": ""
             }
           ]
