@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>blazor-charts-v1</Title>
+    <IsPackable>true</IsPackable>
+    <Version>1.0.1</Version>
+    <Title>blazor-charts-v1.0.1</Title>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Components\*.razor" Pack="true" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="wwwroot\**" PackagePath="wwwroot\" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <ItemGroup>

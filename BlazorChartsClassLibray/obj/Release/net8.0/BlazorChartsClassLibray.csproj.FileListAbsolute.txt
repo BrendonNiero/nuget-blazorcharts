@@ -1,3 +1,4 @@
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\Components\ChartLine.razor
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\wwwroot\chart.js
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.deps.json
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.dll
