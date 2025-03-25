@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Components\*.razor" Pack="true" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Components\*.razor" />
     <Content Include="wwwroot\**" PackagePath="wwwroot\" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <ItemGroup>
