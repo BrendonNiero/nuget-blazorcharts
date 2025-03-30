@@ -5,13 +5,14 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
-    <Version>1.0.1</Version>
-    <Title>blazor-charts-v1.0.1</Title>
+    <Version>1.0.3</Version>
+    <Title>blazor-charts-v1.0.3</Title>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Components\*.razor" Pack="true" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Components\*.razor" />
+    <ItemGroup>
+    <None Include="Components\*.razor" Pack="true" PackagePath="Components\" />
     <Content Include="wwwroot\**" PackagePath="wwwroot\" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Components\ChartLine.razor" Pack="true" PackagePath="Components\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
