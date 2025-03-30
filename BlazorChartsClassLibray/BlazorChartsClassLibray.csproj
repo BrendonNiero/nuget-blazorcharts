@@ -9,7 +9,6 @@
     <Title>blazor-charts-v1.0.3</Title>
   </PropertyGroup>
   <ItemGroup>
-    <ItemGroup>
     <None Include="Components\*.razor" Pack="true" PackagePath="Components\" />
     <Content Include="wwwroot\**" PackagePath="wwwroot\" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Components\ChartLine.razor" Pack="true" PackagePath="Components\" />
