@@ -1,3 +1,5 @@
+# *Ajustando bug (não acha os componentes gráficos)
+
 # Pacote Nuget BlazorCharts
 Criação de gráficos dinâmicos utilizando Chart.JS + Blazor.
 
@@ -6,3 +8,4 @@ Criação de gráficos dinâmicos utilizando Chart.JS + Blazor.
 dotnet add package BlazorChartsClassLibrary
 
 # Ainda está em desenvolvimento!
+
