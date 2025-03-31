@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlazorChartsClassLibray</id>
+    <version>1.0.4</version>
+    <title>blazor-charts-v1.0.4</title>
+    <authors>BlazorChartsClassLibray</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5ac2cd79bf56dfb80b0aa2990ea53bd903a91a11" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.Text.Json" version="9.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.dll" target="lib\net8.0\BlazorChartsClassLibray.dll" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\ChartLine.razor" target="Components\ChartLine.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\wwwroot\chart.js" target="wwwroot\chart.js" />
+  </files>
+</package>
