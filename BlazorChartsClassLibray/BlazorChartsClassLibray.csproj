@@ -1,18 +1,27 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
-    <Version>1.0.4</Version>
-    <Title>blazor-charts-v1.0.4</Title>
+    <Version>1.0.6</Version>
+    <Title>BlazorChartsClassLibray</Title>
   </PropertyGroup>
+  
   <ItemGroup>
-    <Content Include="Components\*.razor" Pack="true" PackagePath="Components\" />
-    <Content Include="wwwroot\**" PackagePath="wwwroot\" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="wwwroot\**" />
+    <Content Update="wwwroot\**">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
+  
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.8" />
+    <PackageReference Include="Microsoft.JSInterop" Version="8.0.8" />
   </ItemGroup>
+
 </Project>

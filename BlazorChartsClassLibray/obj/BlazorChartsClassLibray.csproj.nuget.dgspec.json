@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj": {
-      "version": "1.0.4",
+      "version": "1.0.6",
       "restore": {
         "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj",
         "projectName": "BlazorChartsClassLibray",
@@ -46,6 +46,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[9.0.3, )"

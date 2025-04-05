@@ -1,0 +1,7 @@
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\BlazorChartsClassLibray.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\BlazorChartsClassLibray.deps.json
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\BlazorChartsClassLibray.pdb
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\System.IO.Pipelines.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\System.Text.Encodings.Web.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\System.Text.Json.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\publish\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
