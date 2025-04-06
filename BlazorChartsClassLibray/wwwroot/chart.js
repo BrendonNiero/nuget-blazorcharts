@@ -1,11 +1,11 @@
-window.CreateChartLine = async (chartId, chartType, labels, data, colors) => {
+window.CreateChartLine = async (chartId, dataName, chartType, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {
         type: chartType,
         data: {
             labels: labels,
             datasets: [{
-                label: 'Dataset',
+                label: dataName,
                 data: data,
                 backgroundColor: colors,
                 borderColor: colors,
@@ -43,14 +43,14 @@ window.CreateDoubleBarChart = async (chartId, DataName1, DataName2, labels, data
         }
     });
 }
-window.CreateCharDoughnut = async (chartId, labels, data, colors) => {
+window.CreateCharDoughnut = async (chartId, dataName, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {
         type: "doughnut",
         data: {
             labels: labels,
             datasets: [{
-                label: 'Dataset',
+                label: dataName,
                 data: data,
                 backgroundColor: colors,
                 borderColor: colors,
@@ -59,14 +59,14 @@ window.CreateCharDoughnut = async (chartId, labels, data, colors) => {
     });
 }
 
-window.CreateCharPie = async (chartId, labels, data, colors) => {
+window.CreateCharPie = async (chartId, dataName, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {
         type: "pie",
         data: {
             labels: labels,
             datasets: [{
-                label: 'Dataset',
+                label: dataName,
                 data: data,
                 backgroundColor: colors,
                 borderColor: colors,
@@ -75,14 +75,14 @@ window.CreateCharPie = async (chartId, labels, data, colors) => {
     });
 }
 
-window.CreateCharPolarArea = async (chartId, labels, data, colors) => {
+window.CreateCharPolarArea = async (chartId, dataName, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {
         type: "polarArea",
         data: {
             labels: labels,
             datasets: [{
-                label: 'Dataset',
+                label: dataName,
                 data: data,
                 backgroundColor: colors,
                 borderColor: colors,

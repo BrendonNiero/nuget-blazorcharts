@@ -729,7 +729,7 @@
     "C:\\Users\\Pichau\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "restore": {
       "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\BlazorChartsClassLibray.csproj",
       "projectName": "BlazorChartsClassLibray",

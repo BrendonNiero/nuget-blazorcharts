@@ -2,7 +2,6 @@
 @namespace BlazorChartsClassLibray.Components
 @inject IJSRuntime JS
 
-
 <canvas id="@ChartId" width="500" height="100"></canvas>
 
 @code {
@@ -11,12 +10,10 @@
     [Parameter] public List<string> Labels { get; set; } = new();
     [Parameter] public List<int> DataPoints { get; set; } = new();
     [Parameter] public List<string> BackgroundColors { get; set; } = new();
-    
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JS.InvokeVoidAsync("CreateChartLine", ChartId, DataName, Labels, DataPoints, BackgroundColors);
+
+    protected override async Task OnAfterRenderAsync(bool firstRender){
+        if(firstRender){
+            await JS.InvokeVoidAsync("CreateCharPolarArea", ChartId, DataName, Labels, DataPoints, BackgroundColors);
         }
     }
 }

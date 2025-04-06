@@ -7,14 +7,18 @@
 @code {
     public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
     [Parameter] public List<string> Labels { get; set; } = new();
+    [Parameter] public string DataName1 { get; set; } = string.Empty;
+    [Parameter] public string DataName2 { get; set; } = string.Empty;
     [Parameter] public List<int> DataPoints1 { get; set; } = new();
     [Parameter] public List<int> DataPoints2 { get; set; } = new();
+    [Parameter] public string Color1 { get; set; } = string.Empty;
+    [Parameter] public string Color2 { get; set; } = string.Empty;
     
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("CreateDoubleBarChart", ChartId, Labels, DataPoints1, DataPoints2);
+            await JS.InvokeVoidAsync("CreateDoubleBarChart", ChartId, DataName1, DataName2, Labels, DataPoints1, DataPoints2, Color1, Color2);
         }
     }
 }

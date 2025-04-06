@@ -2,21 +2,20 @@
 @namespace BlazorChartsClassLibray.Components
 @inject IJSRuntime JS
 
-
 <canvas id="@ChartId" width="500" height="100"></canvas>
 
 @code {
     public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
     [Parameter] public string DataName { get; set; } = string.Empty;
     [Parameter] public List<string> Labels { get; set; } = new();
-    [Parameter] public List<int> DataPoints { get; set; } = new();
+    [Parameter] public List<string> DataPoints { get; set; } = new();
     [Parameter] public List<string> BackgroundColors { get; set; } = new();
-    
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("CreateChartLine", ChartId, DataName, Labels, DataPoints, BackgroundColors);
+            await JS.InvokeVoidAsync("CreateCharDoughnut", ChartId, DataName, Labels, DataPoints, BackgroundColors);
         }
     }
 }
