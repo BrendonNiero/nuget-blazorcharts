@@ -23,3 +23,7 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/ChartLine.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFydExpbmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/DoubleBarChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb3VibGVCYXJDaGFydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 

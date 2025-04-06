@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "BlazorChartsClassLibray/1.0.6": {
+      "BlazorChartsClassLibray/1.0.7": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.8",
           "Microsoft.AspNetCore.Components.Web": "8.0.8",
@@ -175,7 +175,7 @@
     }
   },
   "libraries": {
-    "BlazorChartsClassLibray/1.0.6": {
+    "BlazorChartsClassLibray/1.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

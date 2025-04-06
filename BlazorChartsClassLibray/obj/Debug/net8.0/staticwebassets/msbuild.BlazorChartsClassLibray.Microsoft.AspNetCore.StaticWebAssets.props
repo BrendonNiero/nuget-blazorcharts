@@ -14,7 +14,7 @@
       <AssetTraitValue></AssetTraitValue>
       <Fingerprint>u06125npwa</Fingerprint>
       <Integrity>vvqfoekBFodSDwth5AnPy/4RBNL9tI9CV6tACsFMaDw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chart.js'))</OriginalItemSpec>
     </StaticWebAsset>

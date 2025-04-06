@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DBSl//ykEMmS3zVmDwz7PJrRapNwf3ezHTic1NjTRfQ=",
+  "Hash": "wEdcEejI8kBg4FR1UaQtVDbKcnO7DOTd7PnqW8D3jzQ=",
   "Source": "BlazorChartsClassLibray",
   "BasePath": "_content/BlazorChartsClassLibray",
   "Mode": "Default",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "Fingerprint": "u06125npwa",
       "Integrity": "vvqfoekBFodSDwth5AnPy/4RBNL9tI9CV6tACsFMaDw=",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\chart.js"
     }

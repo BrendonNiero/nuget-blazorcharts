@@ -23,3 +23,4 @@ C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Debug\net8.0\refint\BlazorChartsClassLibray.dll
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Debug\net8.0\BlazorChartsClassLibray.pdb
 C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Debug\net8.0\ref\BlazorChartsClassLibray.dll
+C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Debug\net8.0\wwwroot\chart.js
