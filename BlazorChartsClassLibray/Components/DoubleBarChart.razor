@@ -2,19 +2,19 @@
 @namespace BlazorChartsClassLibray.Components
 @inject IJSRuntime JS
 
-<div class="container">
-    <canvas id="@ChartId" width="500" height="100"></canvas>
-</div>
+<canvas id="@ChartId" width="500" height="100"></canvas>
 
 @code {
-    [Parameter] public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
+    public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
     [Parameter] public List<string> Labels { get; set; } = new();
+    [Parameter] public List<int> DataPoints1 { get; set; } = new();
+    [Parameter] public List<int> DataPoints2 { get; set; } = new();
     
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("CreateDoubleBarChart", ChartId, Labels);
+            await JS.InvokeVoidAsync("CreateDoubleBarChart", ChartId, Labels, DataPoints1, DataPoints2);
         }
     }
 }

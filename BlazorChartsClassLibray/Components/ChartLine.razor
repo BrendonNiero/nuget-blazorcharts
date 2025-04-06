@@ -3,13 +3,10 @@
 @inject IJSRuntime JS
 
 
-<div class="container">
-    <canvas id="@ChartId" width="500" height="100"></canvas>
-</div>
+<canvas id="@ChartId" width="500" height="100"></canvas>
 
 @code {
-    [Parameter] public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
-    [Parameter] public string ChartType { get; set; } = "line";
+    public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
     [Parameter] public List<string> Labels { get; set; } = new();
     [Parameter] public List<int> DataPoints { get; set; } = new();
     [Parameter] public List<string> BackgroundColors { get; set; } = new();
@@ -18,7 +15,7 @@
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("CreateChartLine", ChartId, ChartType, Labels, DataPoints, BackgroundColors);
+            await JS.InvokeVoidAsync("CreateChartLine", ChartId, Labels, DataPoints, BackgroundColors);
         }
     }
 }

@@ -6,7 +6,7 @@
     <title>BlazorChartsClassLibray</title>
     <authors>BlazorChartsClassLibray</authors>
     <description>Package Description</description>
-    <repository type="git" commit="3fbe22fa37740425d41da75fd62ed9a5442ae5d0" />
+    <repository type="git" commit="e64647708053b5aeec353ead15c9767ef3733c91" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Microsoft.AspNetCore.Components" version="8.0.8" exclude="Build,Analyzers" />
