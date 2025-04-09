@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BlazorChartsClassLibray/chart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu\u002B5YM4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2718"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu\u002B5YM4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BlazorChartsClassLibray/chart.y6cxksi9xh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\chart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y6cxksi9xh"},{"Name":"integrity","Value":"sha256-BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu\u002B5YM4="},{"Name":"label","Value":"_content/BlazorChartsClassLibray/chart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2718"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu\u002B5YM4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Apr 2025 22:01:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

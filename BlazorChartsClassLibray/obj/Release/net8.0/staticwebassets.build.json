@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "0l18wSl3aVwSbT7dx031yW52AOicxtGuEJFiGsjJfHw=",
+  "Source": "BlazorChartsClassLibray",
+  "BasePath": "_content/BlazorChartsClassLibray",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorChartsClassLibray\\wwwroot",
+      "Source": "BlazorChartsClassLibray",
+      "ContentRoot": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\wwwroot\\",
+      "BasePath": "_content/BlazorChartsClassLibray",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\wwwroot\\chart.js",
+      "SourceId": "BlazorChartsClassLibray",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\wwwroot\\",
+      "BasePath": "_content/BlazorChartsClassLibray",
+      "RelativePath": "chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y6cxksi9xh",
+      "Integrity": "BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu+5YM4=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chart.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "chart.js",
+      "AssetFile": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\wwwroot\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu+5YM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 22:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu+5YM4="
+        }
+      ]
+    },
+    {
+      "Route": "chart.y6cxksi9xh.js",
+      "AssetFile": "C:\\Users\\Pichau\\source\\repos\\BlazorChartsClassLibray\\BlazorChartsClassLibray\\wwwroot\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu+5YM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 22:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y6cxksi9xh"
+        },
+        {
+          "Name": "label",
+          "Value": "chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BmAJWBJqjs6Ob4rjqT5mlPTCLkyYmp81GJP1Eu+5YM4="
+        }
+      ]
+    }
+  ]
+}
