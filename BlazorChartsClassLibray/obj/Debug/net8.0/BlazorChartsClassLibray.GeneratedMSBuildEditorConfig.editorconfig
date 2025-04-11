@@ -20,22 +20,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/CharDoughnut.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFyRG91Z2hudXQucmF6b3I=
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/DoubleBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb3VibGVCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/CharPie.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFyUGllLnJhem9y
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Doughnut.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb3VnaG51dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/ChartLine.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFydExpbmUucmF6b3I=
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/LineGraph.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaW5lR3JhcGgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/DoubleBarChart.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb3VibGVCYXJDaGFydC5yYXpvcg==
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Pie.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQaWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/PolarChart.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xhckNoYXJ0LnJhem9y
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Polar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BlazorChartsClassLibray</id>
+    <version>1.0.12</version>
+    <title>BlazorChartsClassLibray</title>
+    <authors>BlazorChartsClassLibray</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="996f2c2a36336ecaefdd860d809c8cfb84db24d7" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="8.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.JSInterop" version="8.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="9.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/Components/CharDoughnut.razor" buildAction="Content" />
+      <files include="any/net8.0/Components/CharPie.razor" buildAction="Content" />
+      <files include="any/net8.0/Components/ChartLine.razor" buildAction="Content" />
+      <files include="any/net8.0/Components/DoubleBarChart.razor" buildAction="Content" />
+      <files include="any/net8.0/Components/PolarChart.razor" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\bin\Release\net8.0\BlazorChartsClassLibray.dll" target="lib\net8.0\BlazorChartsClassLibray.dll" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\CharDoughnut.razor" target="content\Components\CharDoughnut.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\CharDoughnut.razor" target="contentFiles\any\net8.0\Components\CharDoughnut.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\CharPie.razor" target="content\Components\CharPie.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\CharPie.razor" target="contentFiles\any\net8.0\Components\CharPie.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\ChartLine.razor" target="content\Components\ChartLine.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\ChartLine.razor" target="contentFiles\any\net8.0\Components\ChartLine.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\DoubleBarChart.razor" target="content\Components\DoubleBarChart.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\DoubleBarChart.razor" target="contentFiles\any\net8.0\Components\DoubleBarChart.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\PolarChart.razor" target="content\Components\PolarChart.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\Components\PolarChart.razor" target="contentFiles\any\net8.0\Components\PolarChart.razor" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\wwwroot\chart.js" target="staticwebassets\chart.js" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\staticwebassets\msbuild.BlazorChartsClassLibray.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\staticwebassets\msbuild.BlazorChartsClassLibray.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\staticwebassets\msbuild.build.BlazorChartsClassLibray.props" target="build\BlazorChartsClassLibray.props" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorChartsClassLibray.props" target="buildMultiTargeting\BlazorChartsClassLibray.props" />
+    <file src="C:\Users\Pichau\source\repos\BlazorChartsClassLibray\BlazorChartsClassLibray\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.BlazorChartsClassLibray.props" target="buildTransitive\BlazorChartsClassLibray.props" />
+  </files>
+</package>
