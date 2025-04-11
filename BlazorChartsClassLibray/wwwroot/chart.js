@@ -1,7 +1,7 @@
-window.CreateChartLine = async (chartId, dataName, chartType, labels, data, colors) => {
+window.CreateChartLine = async (chartId, dataName, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {
-        type: chartType,
+        type: "line",
         data: {
             labels: labels,
             datasets: [{

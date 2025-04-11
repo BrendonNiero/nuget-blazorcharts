@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorChartsClassLibray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.13.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.13+996f2c2a36336ecaefdd860d809c8cfb84db24d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.13+ce32c3e760f98c0015d4419ab9cd3445fe96f360")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorChartsClassLibray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorChartsClassLibray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.13.0")]
