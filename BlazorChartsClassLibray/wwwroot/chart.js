@@ -75,6 +75,40 @@ window.CreateCharPie = async (chartId, dataName, labels, data, colors) => {
     });
 }
 
+window.CreateProgressBar = async (chartId, dataName, labels, data, colors) => {
+    const ctx = document.getElementById(chartId);
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: labels,
+            datasets: [{
+                label: dataName,
+                data: data,
+                backgroundColor: colors,
+                borderColor: colors
+            }]
+        }
+    });
+}
+
+window.CreateLying = async (chartId, dataName, labels, data, colors) => {
+    const ctx = document.getElementById(chartId);
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: labels,
+            datasets: [{
+                axis: "y",
+                label: dataName,
+                data: data,
+                fill: false,
+                backgroundColor: colors,
+                borderColor: colors
+            }]
+        }
+    });
+}
+
 window.CreateCharPolarArea = async (chartId, dataName, labels, data, colors) => {
     const ctx = document.getElementById(chartId);
     new Chart(ctx, {

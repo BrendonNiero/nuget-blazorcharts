@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorChartsClassLibray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.11.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.11+c0826aa1121d424e710d9132aa0b5c3abce32ad8")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.17.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.17+56b5abbe868a910d35f6cd0d429317e6bc17c50e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorChartsClassLibray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorChartsClassLibray")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.11.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.17.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

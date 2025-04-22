@@ -6,16 +6,14 @@
 
 @code {
     public string ChartId { get; set; } = $"chart-{Guid.NewGuid()}";
-    [Parameter] public string DataName { get; set; } = string.Empty;
     [Parameter] public List<string> Labels { get; set; } = new();
+    [Parameter] public string DataName { get; set; } = string.Empty;
     [Parameter] public List<int> DataPoints { get; set; } = new();
     [Parameter] public List<string> BackgroundColors { get; set; } = new();
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            await JS.InvokeVoidAsync("CreateCharDoughnut", ChartId, DataName, Labels, DataPoints, BackgroundColors);
+    protected override async Task OnAfterRenderAsync(bool firstRender){
+        if(firstRender){
+            await JS.InvokeVoidAsync("CreateLying", ChartId, DataName, Labels, DataPoints, BackgroundColors);
         }
     }
 }

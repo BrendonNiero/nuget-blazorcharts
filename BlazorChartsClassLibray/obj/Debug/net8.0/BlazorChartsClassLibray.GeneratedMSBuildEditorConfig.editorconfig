@@ -32,10 +32,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMaW5lR3JhcGgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Lying.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMeWluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Pie.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQaWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/Polar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2xhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/source/repos/BlazorChartsClassLibray/BlazorChartsClassLibray/Components/ProgressBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9ncmVzc0Jhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
