@@ -2,6 +2,9 @@
 
 O **Blazor Charts** é um pacote NuGet que facilita a criação de gráficos em aplicações Blazor utilizando o Chart.js.
 
+# 📚 Documentação
+[https://brendonniero.github.io/blazor-charts/](https://brendonniero.github.io/blazor-charts/)
+
 ## 📦 Instalação
 
 Para instalar o pacote, utilize o seguinte comando:
@@ -61,5 +64,3 @@ No seu arquivo .razor, importe o namespace:
       { "#3fc598", "#646cff", "#ff5733", "#ffc300", "#ef436b" };
 }
 ```
-# 📚 Documentação
-Em desenvolvimento...
