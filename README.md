@@ -10,7 +10,7 @@ O **Blazor Charts** é um pacote NuGet que facilita a criação de gráficos em 
 Para instalar o pacote, utilize o seguinte comando:
 
 ```bash
-dotnet add package BlazorChartsClassLibray --version 1.0.15
+dotnet add package BlazorChartsClassLibray
 ```
 
 Em seguida, importe os scripts necessários no seu index.html (Blazor WebAssembly) ou _Host.cshtml (Blazor Server):
